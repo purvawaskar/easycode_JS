@@ -66,7 +66,19 @@
    num3 = num3 / 5
    console.log(num3)
 
+   
+   // comparison operator
+   // "=="
 
- 
+   let ab = "purva"
+   let cd = "purva"
+   console.log(ab==cd)
+
+
+   //  "!="
+
+   console.log(3 != 3)
+
+   console.log(5 != 2)
 
 
