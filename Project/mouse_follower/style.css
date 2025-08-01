@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height:100vh;
+    width:100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+#moving-shadow{
+    background-color: aquamarine;
+    border-radius: 50%;
+    filter: blur(70px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
