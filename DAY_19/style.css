@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+#moving-shadow{
+    height:100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    filter: blur(30px);
+}
